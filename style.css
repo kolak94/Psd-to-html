@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+	max-width: 2000px;
+}
+header {
+	margin-bottom: 10px;
+}
+/*Grid*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+		clear: both;
+}
+[class*="col-"]{
+	float:left;
+	min-height:1px;
+	padding: 15px; 
+}
+
+
+/*Section hero*/
+.hero .brand a {
+	color: #000000;
+	font-family: "Proxima Nova";
+	font-size: 36px;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+.hero nav ul li .active{
+	border: 1px solid grey;
+	border-radius: 30px;
+}
+nav ul li {
+	float: left;
+	list-style-type: none;
+	display: block;
+	padding: 20px;
+		
+}
+nav ul li a {
+	color: #000000;
+	font-family: "Proxima Nova";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-decoration: none;
+	display: block;
+	margin-left: 8px;
+	padding: 12px;
+	
+}
+
+nav ul li a:hover {
+	border: 1px solid #000;;
+	border-radius: 30px;
+	
+}
+
+.hero {
+	background-image: url(img/hero-img.png);
+	width:100%;
+	
+  background-position: center;
+  background-repeat: repeat repeat-y;
+  background-size: cover;
+}
+.hero .slogan {
+	text-align:center;
+}
+.hero .slogan h1 {
+	color: #000000;
+	font-family: "Proxima Nova";
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36px;
+	padding-bottom: 8px;
+	margin-top: 130px;
+}
+.hero .slogan p {
+	color: #949494;
+	font-family: "Proxima Nova";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding-bottom: 64px;
+}
+ .btn{
+	width: 205px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #ffffff;
+background-image: -webkit-linear-gradient(254deg, #49007c 0%, #e70088 100%);
+background-image: -o-linear-gradient(254deg, #49007c 0%, #e70088 100%);
+background-image: linear-gradient(344deg, #49007c 0%, #e70088 100%);
+	font-size: 18px;
+	color: #ffffff;
+	border: none;
+	
+}
+.btn:hover {
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+.slogan .btn-hero {
+	margin-bottom: 190px
+}
+
+.slogan p:last-child {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+}
+.ourSkills {
+	margin-top: 40px;
+}
+.ourSkills h2 {
+	color: #ffffff;
+	font-size: 48px;
+	line-height: 36px;
+	font-weight: 300;
+	padding-left: 50px;
+	margin-bottom: 21px;
+	
+}
+.ourSkills p {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-left: 50px;
+}
+.ourSkills .btn-skills {
+	margin: 40px 0 0 50px;
+	margin-bottom: 30px;
+}
+/* style for section whatWeDo*/
+.whatWeDo {
+	text-align: center;
+}
+.whatWeDo .things {
+	text-align:left;
+}
+
+.whatWeDo h2 {
+	color: #000000;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-top: 40px;
+	padding-bottom: 118px;
+}
+.whatWeDo h3 {
+	color: #000000;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+}
+.whatWeDo p {
+	color: #949494;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.whatWeDo .things .button {
+	text-align: center;
+	margin-bottom: 100px;
+} 
+.projects .col-4 {
+	padding: 0;
+	position:relative;
+	max-height: 475px;
+}
+
+.projects .img-responsive {
+	width: 100%;
+	max-height: 475px;
+}
+
+.projects .text-container {
+	text-align: center;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	
+}
+ .text-container:hover {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, .5)
+	
+}
+.projects .text-container h3 {
+	padding: 20px;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.projects .text-container p {
+	padding: 20px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+.team {
+	background-image: url(img/team.png);
+	color: #ffffff;
+	text-align: center;
+	padding-top: 80px;
+
+}
+.team h2,
+.team h4 {
+	font-weight: 700;
+	line-height: 36px;
+	font-size: 48px;
+	padding-bottom: 40px;
+}
+.team p {
+	color: #949494;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 100px;
+	
+}
+.team h4 {
+	font-size: 24px;
+	padding-top: 20px
+}
+
+
+.map {
+	background-image: url(img/map.png);
+	height: 500px;
+}
+footer {
+	background-color: #000;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+
+
+/*Styles for modals*/
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+	
+}
+.modal-content {
+  position: fixed;
+  background-color: #fefefe;
+  top: 100px;
+	left: 25%;
+	width: 50%;
+	height: 37%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: grey;
+  color: white;
+	text-align: center;
+}
+
+.modal-body {
+	padding: 2px 16px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: grey;
+  color: #fff;
+	text-align: center;
+}
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+	transform: scale(1.3);
+	
+}
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -200px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -200px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@media only screen and (max-width : 420px){
+    /* For phones: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+	
+	.col-offset-s-0 {margin-left: 0;}
+	.col-offset-s-1 {margin-left: 8.33%;}
+	.col-offset-s-2 {margin-left: 16.66%;}
+	.col-offset-s-3 {margin-left: 25%;}
+	.col-offset-s-4 {margin-left: 33.33%;}
+	.col-offset-s-5 {margin-left: 41.66%;}
+	.col-offset-s-6 {margin-left: 50%;}
+	.col-offset-s-7 {margin-left: 58.33%;}
+	.col-offset-s-8 {margin-left: 66.66%;}
+	.col-offset-s-9 {margin-left: 75%;}
+	.col-offset-s-10 {margin-left: 83.33%;}
+	.col-offset-s-11 {margin-left: 91.66%;}
+	.hero {
+		height: 1600px;
+	}
+	.hero .brand  a {
+		font-size: 25px;
+		text-align: center;
+	}
+	.hero nav .mainNav {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.hero nav ul li {
+		width: 100%;
+		padding: 9px;
+	}
+	.hero nav ul li a {
+		displaY: block;
+		border: none;
+		font-size: 20px;
+		margin-left: -44px;
+		padding-left: 0;
+		padding: 0;
+	}
+	.hero nav ul li .active {
+		border: none;
+	}
+	.hero .slogan h1  {
+		margin-top: 120px;
+		color: #000;
+		margin-bottom: 30px;
+	}
+	.hero .slogan p {
+		display: none;
+	}
+	
+	.slogan .btn-hero {
+		margin-bottom: 150px;
+	}
+	.ourSkills {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		padding-top: 217px;
+		
+	}
+	.ourSkills p {
+		font-size: 16px;
+		line-height: 18px;
+		padding: 0;
+	}
+	.ourSkills p:last-child {
+		margin-bottom: 40px;
+	}
+	.ourSkills h2 {
+		text-align: center;
+		font-size: 30px;
+		padding-bottom: 5px;
+		padding: 0;
+		
+	}
+	.ourSkills .btn-skills {
+		display: none;
+	}
+	.whatWeDo h2 {
+		line-height: 50px;
+		font-size: 30px;
+		padding-bottom: 0;
+	}
+	.whatWeDo .things {
+		text-align: center;
+	}
+	.projects .text-container {
+		display:none;
+	}
+	.team {
+		background-color: #000;
+		background-image: none;
+	}
+	.modal-content {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+  	background-color: #fefefe;
+  	top: 0;
+		left: 0;
+	}
+	
+}
+@media (min-width: 421px) and (max-width: 767px) {
+	/*medium */
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+.col-offset-md-0 {margin-left: 0;}
+.col-offset-md-1 {margin-left: 8.33%;}
+.col-offset-md-2 {margin-left: 16.66%;}
+.col-offset-md-3 {margin-left: 25%;}
+.col-offset-md-4 {margin-left: 33.33%;}
+.col-offset-md-5 {margin-left: 41.66%;}
+.col-offset-md-6 {margin-left: 50%;}
+.col-offset-md-7 {margin-left: 58.33%;}
+.col-offset-md-8 {margin-left: 66.66%;}
+.col-offset-md-9 {margin-left: 75%;}
+.col-offset-md-10 {margin-left: 83.33%;}
+.col-offset-md-11 {margin-left: 91.66%;}
+	.brand {
+		text-align: center;
+	}
+	.hero nav .mainNav {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+		.hero nav ul li {
+		width: 100%;
+		padding: 9px;
+	}
+	.hero nav ul li a {
+		displaY: block;
+		border: none;
+		font-size: 20px;
+		margin-left: -44px;
+		padding-left: 0;
+		padding: 0;
+	}
+	.ourSkills {
+		text-align: center;
+	}
+	.ourSkills p,
+	.ourSkills h2 {
+		padding: 30px 0 0 0;
+		margin: 0;
+	}
+	.ourSkills .btn-skills {
+		text-align: center;
+		margin-left: 0;
+	}
+	.examples {
+		text-align: center;
+	}
+	.examples p {
+		font-size: 20px;
+	}
+	.examples h3 {
+		font-size: 21px;
+	}
+	.projects .text-container {
+		display:none;
+	}
+	.projects img:hover {
+		opacity: 0.8;
+		cursor: pointer;
+	}
+	.team {
+		background-color: #000;
+		background-image: none;
+		
+	}
+	.team .first p {
+		padding-bottom: 0;
+	}
+	.modal-content {
+		width: 100%;
+		height: auto;
+		position: fixed;
+  	background-color: #fefefe;
+  	top: 0;
+		left: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1050px) {
+	.col-ls-12 {width: 100%;}
+	.projects .text-container p {
+		font-size: 12px;
+		padding-top: 0;
+	}
+	.mainNav {
+		
+		margin-left: 0;
+		
+	}
+	.projects .text-container h3 {
+		padding-bottom: 3px;
+	}
+	.md-hidden {
+		display: none;
+	}
+	.team .first {
+		margin-left: 150px 
+	}
+	.team img {
+		width: 100px;
+	}
+	.team .first p {
+		font-size: 15px;
+	}
+	.team .third {
+		margin-left: 150px;
+		
+	}
+	.team .third p {
+		font-size: 15px;
+	}
+	.team .btn {
+		margin-top: -100px;
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+	.col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 75%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+	
+	.col-offset-lg-0 {margin-left: 0;}
+	.col-offset-lg-1 {margin-left: 8.33%;}
+	
+	header  {
+		text-align: center
+	}
+	header ul {
+		margin-left: 10%;
+	}
+	header ul li {
+		padding: 3px;
+		margin: 0;
+	}
+	.mainNav {
+		display: block;
+		
+	}
+	.projects .text-container .btn {
+		display: none;
+	}
+	.projects .text-container  {
+		padding: 0;
+	}
+	.team p {
+		padding-bottom: 50px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
